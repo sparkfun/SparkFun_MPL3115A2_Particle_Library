@@ -3,6 +3,11 @@
  By: Nathan Seidle
  SparkFun Electronics
  Date: September 22nd, 2013
+ 
+ Updated for Particle by Joel Bartlett 
+ SparkFun Electronics
+ Date: June 30, 2015
+ 
  License: This code is public domain but you buy me a beer if you use this and we meet someday (Beerware license).
 
  This library allows an Arduino to read from the MPL3115A2 low-cost high-precision pressure sensor.
