@@ -46,11 +46,12 @@ void setup()
           delay(1000);
      }
      Serial.println("MPL3115A2 OK");
-
-     //baro.setModeBarometer();
-     baro.setModeAltimeter();
-     //baro.setOversampleRate(7); // Set Oversample to the recommended 128
-     //baro.enableEventFlags();
+     //MPL3115A2 Settings
+     //baro.setModeBarometer();//Set to Barometer Mode
+     baro.setModeAltimeter();//Set to altimeter Mode
+     
+     baro.setOversampleRate(7); // Set Oversample to the recommended 128
+     baro.enableEventFlags(); //Necessary register calls to enble temp, baro ansd alt
 
 }
 //---------------------------------------------------------------
