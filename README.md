@@ -41,7 +41,12 @@ Then use the `MPL3115A2` object to interact with it. Begin by initializing the I
 	     }
 	     Serial.println("MPL3115A2 OK");
 
-	     baro.setModeAltimeter();
+	    //MPL3115A2 Settings
+	    //baro.setModeBarometer();//Set to Barometer Mode
+	    baro.setModeAltimeter();//Set to altimeter Mode
+	
+	    baro.setOversampleRate(7); // Set Oversample to the recommended 128
+	    baro.enableEventFlags(); //Necessary register calls to enble temp, baro ansd alt
 	}
 
 Then you can read verious data like this:
