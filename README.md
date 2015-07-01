@@ -49,7 +49,7 @@ Then use the `MPL3115A2` object to interact with it. Begin by initializing the I
 	    baro.enableEventFlags(); //Necessary register calls to enble temp, baro ansd alt
 	}
 
-Then you can read verious data like this:
+Then you can read various data like this:
 
 	  baroTemp = baro.readTempF();//get the temperature in F
 	
@@ -57,7 +57,7 @@ Then you can read verious data like this:
 	
 	  altf = baro.readAltitudeFt();//get altitude in feet
 	
-Check out the example files in the [examples directory]() for more guidance.
+Check out the example files in the [examples directory](https://github.com/sparkfun/SparkFun_MPL3115A2_Particle_Library/tree/master/firmware/examples) for more guidance.
 
 Recommended Components
 -------------------
