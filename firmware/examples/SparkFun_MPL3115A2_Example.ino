@@ -26,7 +26,7 @@
   please buy us a round!
   Distributed as-is; no warranty is given.
 *******************************************************************************/
-#include "../SparkFun_MPL3115A2/SparkFun_MPL3115A2.h"
+#include "SparkFun_MPL3115A2/SparkFun_MPL3115A2.h"
 float pascals = 0;
 float altf = 0;
 float baroTemp = 0;
